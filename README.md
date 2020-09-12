@@ -1,15 +1,15 @@
-# echo-middleware
+# golang-middleware
 
-よく使うechoミドルウェアのパッケージです。
+よく使うgolangのパッケージです。
 
 ## Logger
 
-標準のLoggerではKPIやお問い合わせ用途としては情報が足りません。<br/>
+echo標準のLoggerではKPIやお問い合わせ用途としては情報が足りません。<br/>
 リクエストパラメーターやレスポンス内容を詳細にログ出力します。
 
 ## Recover
 
-標準のRecoverとほぼ一緒ですが、このパッケージのLoggerに合わせたログ出力をします。
+echo標準のRecoverとほぼ一緒ですが、このパッケージのLoggerに合わせたログ出力をします。
 
 ## AccessControl
 
