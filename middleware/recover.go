@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/ichi-pg/echo-middleware/contexts"
-	"github.com/ichi-pg/echo-middleware/presenter"
+	"github.com/ichi-pg/golang-middleware/contexts"
+	"github.com/ichi-pg/golang-middleware/presenter"
 	"github.com/labstack/echo/v4"
 	"github.com/sirupsen/logrus"
 )

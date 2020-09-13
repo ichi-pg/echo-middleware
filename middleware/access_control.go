@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/labstack/echo/v4"
-	"github.com/ichi-pg/echo-middleware/env"
+	"github.com/ichi-pg/golang-middleware/env"
 )
 
 // AccessControl はIPホワイトリスト以外のアクセスを拒否します。

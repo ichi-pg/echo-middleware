@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/ichi-pg/echo-middleware/header"
-	"github.com/ichi-pg/echo-middleware/repository"
+	"github.com/ichi-pg/golang-middleware/header"
+	"github.com/ichi-pg/golang-middleware/repository"
 	"github.com/labstack/echo/v4"
 )
 

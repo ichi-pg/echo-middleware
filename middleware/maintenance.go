@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/ichi-pg/echo-middleware/repository"
+	"github.com/ichi-pg/golang-middleware/repository"
 	"github.com/labstack/echo/v4"
 )
 

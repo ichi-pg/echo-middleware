@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/ichi-pg/echo-middleware/env"
+	"github.com/ichi-pg/golang-middleware/env"
 	"github.com/labstack/echo/v4"
 )
 
