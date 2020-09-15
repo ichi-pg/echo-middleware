@@ -16,5 +16,9 @@ func SetLogger(c echo.Context, log *logrus.Entry) {
 
 // Logger はロガーをコンテキストから取り出します。
 func Logger(c echo.Context) *logrus.Entry {
-	return c.Get(logger).(*logrus.Entry)
+	v := c.Get(logger)
+	if v == nil {
+		return nil
+	}
+	return v.(*logrus.Entry)
 }
